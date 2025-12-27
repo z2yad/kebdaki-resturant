@@ -129,23 +129,19 @@ html {
 
 /* ===== Hero Section ===== */
 .hero {
-    min-height: 60vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--cream-bg) 0%, var(--light-bg) 50%, #fff5e6 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/hero2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
     overflow: hidden;
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(139, 0, 0, 0.03) 0%, transparent 50%);
-    animation: pulse 15s ease-in-out infinite;
+    display: none;
 }
 
 @keyframes pulse {
@@ -163,36 +159,20 @@ html {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
-    color: var(--primary-dark-red);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--accent-yellow);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
 .hero .lead {
-    font-size: 1.35rem;
-    color: var(--text-muted);
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 2.5rem;
     line-height: 1.8;
-}
-
-.hero img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: var(--shadow-lg);
-    transition: var(--transition-slow);
-    border: 4px solid var(--accent-yellow);
-    position: relative;
-}
-
-.hero img:hover {
-    transform: scale(1.05) rotate(2deg);
-    box-shadow: 0 20px 50px rgba(139, 0, 0, 0.25);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* ===== Menu Page Images ===== */
@@ -394,9 +374,8 @@ footer::before {
     content: '';
     position: absolute;
     bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
+    left: 0;
+    width: 100%;
     height: 3px;
     background: linear-gradient(90deg, var(--primary-dark-red), var(--accent-yellow));
     border-radius: 2px;
