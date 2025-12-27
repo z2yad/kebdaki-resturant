@@ -38,6 +38,8 @@ restaurant-project/
 1. Clone the repository:
    ```bash
    git clone https://github.com/z2yad/kebdaki-resturant
+2. ```bash
+   cd kebdaki-resturant 
    ```
 2. Open `index.html` in your browser to view the website.
 
