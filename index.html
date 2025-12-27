@@ -56,22 +56,39 @@
   </section>
 
   <!-- ===== Footer ===== -->
-  <footer class="bg-dark text-light py-4 mt-5">
+  <footer class="bg-dark text-light py-5 mt-5">
     <div class="container">
-      <div class="row">
+      <div class="row g-4 justify-content-center">
 
         <!-- Contact -->
-        <div class="col-md-6 text-center d-flex flex-column align-items-center">
-          <h5>تواصل معنا</h5>
-          <p><i class="bi bi-telephone"></i> 01034846784</p>
-          <p><i class="bi bi-telephone"></i> 01144967876</p>
+        <div class="col-lg-4 col-md-6 footer-section">
+          <h5 class="footer-title">تواصل معنا</h5>
+          <div class="footer-content">
+            <p class="contact-item"><i class="bi bi-telephone"></i> 01034846784</p>
+            <p class="contact-item"><i class="bi bi-telephone"></i> 01144967876</p>
+          </div>
         </div>
 
-        <!-- Location + QR -->
-        <div class="col-md-6">
-          <h5>المكان</h5>
-          <p><i class="bi bi-geo-alt"></i> كفر ميت سراج – كافيه موكا</p>
-          <img src="assests/qr/menu-qr.png" alt="QR Menu" width="100">
+        <!-- Location -->
+        <div class="col-lg-4 col-md-6 footer-section">
+          <h5 class="footer-title">المكان</h5>
+          <div class="footer-content">
+            <p class="location-text">
+              <i class="bi bi-geo-alt"></i> كفر ميت سراج – كافيه موكا
+            </p>
+            <a href="https://maps.google.com/?q=كفر+ميت+سراج+كافيه+موكا" target="_blank" class="map-link">
+              <i class="bi bi-map"></i> شاهد الموقع على الخريطة
+            </a>
+          </div>
+        </div>
+
+        <!-- QR Code -->
+        <div class="col-lg-4 col-md-6 footer-section">
+          <h5 class="footer-title">QR Menu</h5>
+          <div class="footer-content">
+            <p class="qr-description">امسح الكود للقائمة</p>
+            <img src="assests/images/qr.png" class="qr-code" alt="QR Code">
+          </div>
         </div>
 
       </div>
