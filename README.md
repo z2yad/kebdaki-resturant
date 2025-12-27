@@ -39,11 +39,7 @@ restaurant-project/
    ```bash
    git clone https://github.com/z2yad/kebdaki-resturant
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd restaurant
-   ```
-3. Open `index.html` in your browser to view the website.
+2. Open `index.html` in your browser to view the website.
 
 ## 📍 Location
 
