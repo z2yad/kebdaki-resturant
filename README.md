@@ -35,9 +35,15 @@ restaurant-project/
 
 ## 🚀 How to Run
 
-1. Clone the repository or download the project files.
-2. Open `index.html` in any modern web browser.
-3. Enjoy exploring the menu!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Start-Tech-Academy/restaurant.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd restaurant
+   ```
+3. Open `index.html` in your browser to view the website.
 
 ## 📍 Location
 
