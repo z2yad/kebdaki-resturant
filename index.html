@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kebdaki | Home</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assests/css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assests/images/logo.png" alt="Kebdaki Logo" height="40">
+        Kebdaki
+      </a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-6">
+          <h1 class="fw-bold">أهلاً بيك في كبدكي 🔥</h1>
+          <p class="lead">أفضل كريب وسندوتشات في كفر ميت سراج</p>
+          <a href="menu.html" class="btn btn-warning btn-lg">شوف المنيو</a>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <img src="assests/images/hero.jpg" class="img-fluid rounded" alt="Restaurant Image">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="bg-dark text-light py-4 mt-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact -->
+        <div class="col-md-6 text-center d-flex flex-column align-items-center">
+          <h5>تواصل معنا</h5>
+          <p><i class="bi bi-telephone"></i> 01034846784</p>
+          <p><i class="bi bi-telephone"></i> 01144967876</p>
+        </div>
+
+        <!-- Location + QR -->
+        <div class="col-md-6">
+          <h5>المكان</h5>
+          <p><i class="bi bi-geo-alt"></i> كفر ميت سراج – كافيه موكا</p>
+          <img src="assests/qr/menu-qr.png" alt="QR Menu" width="100">
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assests/js/main.js"></script>
+</body>
+
+</html>
