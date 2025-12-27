@@ -320,7 +320,19 @@ html {
 
 /* ===== Section Backgrounds ===== */
 .bg-light {
-    background: linear-gradient(180deg, var(--light-bg) 0%, var(--cream-bg) 100%) !important;
+    background: linear-gradient(135deg, var(--darker-bg) 0%, #2a2a2a 100%) !important;
+    color: var(--text-light);
+}
+
+.crepes-section {
+    background: linear-gradient(135deg, #2c0b0e 0%, #000000 100%) !important;
+    position: relative;
+    border-top: 1px solid rgba(139, 0, 0, 0.3);
+}
+
+.sandwich-section {
+    background: linear-gradient(135deg, #000000 0%, #2c0b0e 100%) !important;
+    position: relative;
 }
 
 section.py-5 {
