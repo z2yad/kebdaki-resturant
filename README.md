@@ -37,7 +37,7 @@ restaurant-project/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Start-Tech-Academy/restaurant.git
+   git clone https://github.com/z2yad/kebdaki-resturant
    ```
 2. Navigate to the project directory:
    ```bash
